@@ -29,6 +29,16 @@
 			<url>file://${project.build.directory}/mvn-repo</url>
 		</repository>
 	</distributionManagement>
+	<repositories>
+		<repository>
+			<id>githubrepo</id>
+			<url>https://raw.github.com/motriuc/mvn-repo/mvn-repo/</url>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+		</repository>
+	</repositories>
 	<build>
 		<plugins>
 			<plugin>
