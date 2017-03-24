@@ -22,6 +22,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	<!-- begin -->
 	<distributionManagement>
 		<repository>
 			<id>internal.repo</id>
@@ -53,7 +54,7 @@
 				<artifactId>site-maven-plugin</artifactId>
 				<version>0.12</version>
 				<configuration>
-					<message>Maven artifacts for ${project.version}</message>  <!-- git commit message -->
+					<message>Maven artifacts for ${project.name}:${project.version}</message>  <!-- git commit message -->
 					<noJekyll>true</noJekyll>                                  <!-- disable webpage processing -->
 					<outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> <!-- matches distribution management repository url above -->
 					<branch>refs/heads/mvn-repo</branch>                       <!-- remote branch name -->
@@ -142,5 +143,6 @@
 			</plugin>
 		</plugins>
 	</reporting>
+	<!-- end -->
 </project>
 
