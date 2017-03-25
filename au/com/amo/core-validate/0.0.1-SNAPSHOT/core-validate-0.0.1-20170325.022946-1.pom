@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>au.com.amo</groupId>
-	<artifactId>core-config</artifactId>
+	<artifactId>core-validate</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>core-config</name>
+	<name>core-validate</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -16,20 +16,10 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>au.com.amo</groupId>
-			<artifactId>core-validate</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.12</version>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.yaml</groupId>
-			<artifactId>snakeyaml</artifactId>
-			<version>1.18</version>
 		</dependency>
 	</dependencies>
 	<!-- begin -->
@@ -76,7 +66,6 @@
 					<userName>motriuc</userName>
 					<repositoryName>mvn-repo</repositoryName>      <!-- github repo name -->
 					<repositoryOwner>motriuc</repositoryOwner>    <!-- github username -->
-					<merge>true</merge>
 				</configuration>
 				<executions>
 					<execution>
@@ -156,3 +145,4 @@
 	</reporting>
 	<!-- end -->
 </project>
+
