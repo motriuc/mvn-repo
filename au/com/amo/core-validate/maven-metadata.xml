@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>au.com.amo</groupId>
-  <artifactId>core-config</artifactId>
+  <artifactId>core-validate</artifactId>
   <versioning>
     <versions>
       <version>0.0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20170325012917</lastUpdated>
+    <lastUpdated>20170325013658</lastUpdated>
   </versioning>
 </metadata>
